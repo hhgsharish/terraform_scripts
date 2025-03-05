@@ -1,7 +1,7 @@
 
 terraform {
   backend "s3" {
-    bucket         = "my-tf-test-bucketzzz" # change this
+    bucket         = "${terraform.workspace}-tf-bucketzhzast21" # change this
     key            = "state/${terraform.workspace}/terraform.tfstate"
     region         = "us-east-2"
     encrypt        = true
