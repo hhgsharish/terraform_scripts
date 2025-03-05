@@ -16,5 +16,8 @@ To Select:
 Terraform workspace select <workspace name>
 Terraform workspace select prod
 
+To View the selected workspace:
+terraform workspace show
+
 To List:
 Terraform workspace list
